@@ -1,0 +1,46 @@
+.postcard-wrapper{
+    margin: 0px 10px 50px 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: .5em;
+    
+    box-shadow:  10px 10px 30px #b8b8b8, 
+                 -10px -10px 10px #ffffff;
+}
+.post-image-wrapper{
+    
+    display: flex;
+    align-items: center;
+}
+.post-detail-wrapper{
+    flex: 1;
+    padding: 10px;
+}
+.post-detail-wrapper p{
+    margin: 0;
+}
+.post-author-date-wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.post-summary-wrapper p{
+    padding: 5px 0px;
+}
+.postcard-wrapper h2{
+    margin: 0;
+}
+.read-more-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:425px){
+    .postcard-wrapper{
+        flex-direction: column;
+    }
+    .post-image-wrapper{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+.hero-div{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    flex-direction: column;
+}
+.hero-div p{
+    font-family: 'Comic Neue', cursive;
+    background: #ffffff;
+    box-shadow:  10px 5px 30px #b8b8b8, 
+                 -10px -10px 10px #ffffff;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+.hero-topics ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin : 0;
+    font-size: 15px;  
+    padding: 0;
+}
+.hero-topics ul li{
+    margin: 10px;
+    
+}
+.hero-topics ul li a{
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+
+
+@media (max-width:768px){
+    .hero-div{
+        font-size: 8vw;
+    }
+}

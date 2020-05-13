@@ -1,0 +1,8 @@
+.main-part-div{
+    display: flex;
+    justify-content: center;
+}
+.body-wrapper{
+    min-height: 100vh;
+    position: relative;
+}

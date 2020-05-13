@@ -1,0 +1,19 @@
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.contact-wrapper p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.9rem;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

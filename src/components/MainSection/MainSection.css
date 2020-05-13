@@ -1,0 +1,12 @@
+.mainsection{
+    width: 100%;
+    max-width: 1000px;
+    overflow: visible;
+    margin-bottom: 70px; 
+    margin-top: 50px;   
+}
+@media (max-width:425px){
+    .mainsection{
+        margin-top: 20px;
+    }
+}
